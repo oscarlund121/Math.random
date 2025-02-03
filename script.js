@@ -16,9 +16,9 @@ function evaluateTextField() {
 
   const brugerGæt = Number(brugerInput);
 
-  if (brugerInput === randomNumber) {
+  if (brugerGæt === randomNumber) {
     brugerSvar.textContent = "Du gættede rigtigt!";
-  } else if (brugerInput > randomNumber) {
+  } else if (brugerGæt > randomNumber) {
     brugerSvar.textContent = "For højt! Prøv igen.";
   } else {
     brugerSvar.textContent = "For lavt! Prøv igen.";
